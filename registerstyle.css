@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.navbar-brand {
+  font-size: 6vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 6vh;
+}
+
+.nav-link {
+  font-size: 2.5vh;
+}
+
+.imgform {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-right: 10%;
+}
+
+.form {
+  margin-top: 2%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: 5px solid #EEF2FF;
+  border-radius: 12px;
+  width: 35%;
+  height: 90%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: center;
+}
+
+.op {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.op1 {
+  color: black;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1450px) {
+  .imgform .form {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 770px) {
+  .imgform .form {
+    width: 55%;
+    margin-top: 8%;
+  }
+}
+
+@media (max-width: 430px) {
+  .imgform {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #04AA6D;
+  }
+  .imgform .form {
+    margin-top: 26%;
+    width: 100%;
+    margin-left: 6%;
+  }
+  .imgform .form .op {
+    color: green;
+  }
+  .imgform .form .op1 {
+    color: #04AA6D;
+  }
+}
+
+@media (max-width: 325px) {
+  .imgform {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #04AA6D;
+  }
+  .imgform .form {
+    margin-top: 46%;
+    width: 100%;
+    margin-left: 6%;
+  }
+  .imgform .form .op {
+    color: green;
+  }
+  .imgform .form .op1 {
+    color: #04AA6D;
+  }
+}
+
+.foote {
+  width: 100%;
+  margin-top: 0%;
+  background-color: #3C1053FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.foote1 {
+  padding: 2%;
+  margin: 4%;
+  width: 32%;
+}
+
+.some {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  row-gap: 2%;
+  padding: 3%;
+}
+
+.foote2 {
+  width: 15%;
+  padding: 2%;
+  margin: 4%;
+}
+
+.foote3 {
+  width: 25%;
+  padding: 2%;
+  margin: 4%;
+}
+
+@media (max-width: 769px) {
+  .foote {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foote .foote1 {
+    width: 60%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foote .foote1 .some {
+    width: 100%;
+  }
+  .foote .foote2 {
+    width: 35%;
+  }
+  .foote .foote3 {
+    width: 41%;
+  }
+}
+
+@media (max-width: 400px) {
+  .foote {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foote .foote1 {
+    text-align: center;
+    width: 80%;
+  }
+  .foote .foote2 {
+    text-align: center;
+    width: 80%;
+  }
+  .foote .foote3 {
+    text-align: center;
+    width: 80%;
+  }
+}
+
+.last {
+  width: 100%;
+  background-color: #b37dcf;
+  padding-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  .last {
+    padding-bottom: 10%;
+  }
+}
+/*# sourceMappingURL=registerstyle.css.map */

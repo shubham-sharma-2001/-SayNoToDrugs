@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.navbar-brand {
+  font-size: 6vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 6vh;
+}
+
+.nav-link {
+  font-size: 2.5vh;
+}
+
+.foote {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+
+.foote1 {
+  padding: 2%;
+  margin: 4%;
+  width: 32%;
+}
+
+.some {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  row-gap: 2%;
+  padding: 3%;
+}
+
+.foote2 {
+  width: 15%;
+  padding: 2%;
+  margin: 4%;
+}
+
+.foote3 {
+  width: 25%;
+  padding: 2%;
+  margin: 4%;
+}
+
+@media (max-width: 769px) {
+  .foote {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foote .foote1 {
+    width: 60%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foote .foote1 .some {
+    width: 100%;
+  }
+  .foote .foote2 {
+    width: 35%;
+  }
+  .foote .foote3 {
+    width: 41%;
+  }
+}
+
+@media (max-width: 400px) {
+  .foote {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foote .foote1 {
+    text-align: center;
+    width: 80%;
+  }
+  .foote .foote2 {
+    text-align: center;
+    width: 80%;
+  }
+  .foote .foote3 {
+    text-align: center;
+    width: 80%;
+  }
+}
+
+.last {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  .last {
+    padding-bottom: 10%;
+  }
+}
+
+.imagaform {
+  background-image: url(img/profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foomr {
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(50%, #fafafa), color-stop(99%, #ffffff));
+  background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+  margin-top: 13%;
+  width: 45%;
+  margin-bottom: 13%;
+  opacity: 0.9;
+  color: black;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.form-footer span {
+  float: left;
+  margin-top: 10px;
+  color: #999;
+  font-style: italic;
+  font-weight: thin;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2d9279;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  color: #bcf5e7;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1d5e4d;
+  color: white;
+}
+
+.form-header {
+  background-color: #EFF0F1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #666;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=pro.css.map */

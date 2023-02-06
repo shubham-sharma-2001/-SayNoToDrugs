@@ -1,0 +1,278 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box; 
+    // border: 5px solid black;
+  
+    body{
+      font-size : 20px;
+      font-family : sans-serif;
+    }
+}
+
+
+.navbar-brand
+{
+    font-size: 6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar
+{
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    // border: 3px solid red;
+    
+    
+}
+.navbar-nav
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 6vh;
+  
+}
+
+.nav-link
+{
+    font-size: 2.5vh;
+}
+
+
+
+.imgform
+{
+    background-size: cover;
+    margin-top: 7%;
+    margin-bottom: 26%;
+    // border: 3px solid green;
+}
+
+
+.container{
+    // border: 3px solid orange;
+        width: 50%;
+        
+    // background-color:transparent;
+   
+    padding: 5%;
+   
+    margin-top: 4%;
+
+
+}
+
+.was-validated
+{
+    margin-bottom: 15%;
+}
+
+
+@media (max-width:426px )
+{
+    body
+    {
+        width: 133%;
+
+        .imgform
+        {
+        
+            // border: 3px solid orange;
+            margin-top: 15%;
+            
+            
+
+            .container{
+                width: 60%;
+                // border: 3px solid gray;
+                
+                
+                }
+        }
+    
+    }
+    
+    
+}
+
+@media(max-width:375px)
+{
+    body
+    {
+        width: 100%;
+
+        .imgform
+        {
+        
+            // border: 3px solid black;
+            margin-top: 25%;
+            
+
+            .container{
+                width: 90%;
+                // border: 3px solid gray;
+                // margin-top: 7%;
+                
+                }
+        }
+    
+    }
+    
+    
+}
+
+
+@media(max-width:320px)
+{
+    body
+    {
+        width: 100%;
+
+        .imgform
+        {
+        
+            // border: 3px solid green;
+            margin-top: 28%;
+            
+
+            .container{
+                width: 100%;
+                // border: 3px solid gray;
+                // margin-top: 7%;
+                
+                }
+        }
+    
+    }
+    
+    
+}
+
+.foote{
+    margin-top: 0%;
+    // border: 3px solid brown;
+    width: 100%;
+    // height: 550px;
+    // margin-top: 1%;
+    // margin-bottom: 3%;
+    background-color: #dff5ce;
+    display: flex;
+    
+    // background-image: url(img/life.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-position-y: 50%;
+    background-position: 50%;
+
+    
+    
+  
+}
+.foote1{
+    padding: 2%;
+    // border: 3px solid black;
+    margin: 4%;
+    width: 32%;
+    // display: flex;
+}
+.some
+{
+    display: flex; 
+    width: 50%; 
+    row-gap: 2%; 
+    // border: 3px solid greenyellow;     
+    padding: 3%;
+}
+.foote2{
+    // border: 3px solid black;
+    width: 15%;
+    padding: 2%;
+    margin: 4%;
+
+}
+.foote3
+{
+    // border: 3px solid black;
+    width: 25%;
+    padding: 2%;
+    margin: 4%;
+
+}
+
+@media (max-width:769px)
+{
+    .foote
+    {
+        justify-content: center;
+        align-items: center;
+        .foote1
+        {
+            width: 60%;
+
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .some
+            {
+                width: 100%;
+                // border: 3px solid gold;
+            }
+        }
+        .foote2
+        {
+            width: 35%;
+        }
+        .foote3
+        {
+            width: 41%;
+        }
+    }
+
+}
+
+@media (max-width:400px) {
+    .foote
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .foote1
+        {
+            text-align: center;
+            width: 80%;
+        }
+        .foote2
+        {
+            // align-items: center;
+            // justify-content: center;
+            // flex-direction: column;
+            text-align: center;
+
+            width: 80%;
+        }
+        .foote3
+        {
+            text-align: center;
+            
+            width: 80%;
+        }
+    }
+    
+}
+.last
+{
+    // border: 2px solid green;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 3%;
+}
+
+@media (max-width:768px)
+{
+    .last
+    {
+        padding-bottom: 10%;
+    }
+}

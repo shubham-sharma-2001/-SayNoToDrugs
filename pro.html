@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pro.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="home.html">Healin' path</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse form-inline " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Relief From
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Smoking</a>
+                        <a class="dropdown-item" href="#">consuming alcohols</a>
+                        <a class="dropdown-item" href="#">chewing tobacco</a>
+                        <a class="dropdown-item" href="#">intaking drugs</a>
+                    </div>
+                </li> -->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pro.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="appointment.html">Appointment</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="imagaform">
+
+
+        <div class="foomr">
+
+            <div class="form-header">
+                <h1>Patient Profile</h1>
+            </div>
+
+
+
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" placeholder="Enter your first name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" id="lname" placeholder="Enter your last name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com">
+                </div>
+
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="phoneno">Phone number</label>
+                        <input type="number" class="form-control" id="phoneno" placeholder="Enter your phone no.">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Material Status</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>None</option>
+                            <option>Married</option>
+                            <option>Unmarried</option>
+                            <!-- <option>Student</option> -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Gender:</label><br>
+                        <label for="male"><input type="radio" name="gender" value="male" id="male">
+                            Male</label>
+                        <label for="female"><input type="radio" name="gender" value="female" id="female">
+                            Female</label>
+                        <label for="fothers"><input type="radio" name="gender" value="others" id="others">
+                            Other</label>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="label-title">Relief from</label>
+
+                        <div>
+                            <label><input type="checkbox" value="Web">smoking</label><br>
+                            <label><input type="checkbox" value="iOS">consuming alcohols</label><br>
+                            <label><input type="checkbox" value="Andriod">chewing tobacco</label><br>
+                            <label><input type="checkbox" value="Game">intaking drugs</label>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <label for="inputState">Level of consumtion</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>None</option>
+                        <option>Low</option>
+                        <option>Intermediat</option>
+                        <option>High</option>
+                    </select>
+                    <br>
+                
+                    <div>
+                        <label for="choose-file" class="label-title">Upload Aadhar card</label>
+                        <input type="file" id="choose-file" size="80">
+                        
+                    </div><br>
+
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="age">Age</label><br>
+                            <!-- <input type="number" class="form-control" id="age" placeholder="Enter your phone no."> -->
+                            <input type="number" class="form-control" min="18" max="80" value="18" >
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Material Status</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>None</option>
+                                <option value="B">student</option>
+                                <option value="I">salaried</option>
+                                <option value="A">old age</option>
+                            </select>
+                        </div>
+                    </div>
+
+                <div class="form-group">
+                    <label for="inputAddress2">Address </label>
+                    <!-- <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor"> -->
+                        <textarea class="form-control" rows="4" cols="50" style="height:auto"></textarea>
+                </div>
+
+                <div class="form-footer">
+                    <span>* required</span>
+                    <button type="submit" class="btn">Create</button>
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
+
+
+    <div class="foote">
+        <div class="foote1">
+            <a href="home.html">
+                <h2 class="navbar-brand" style="color: black;">Healin' path</h2>
+            </a>
+            <p>We are glad to serve those who want to help and pull themself from the marsh towards betterment.</p>
+
+
+            <div class="some">
+                <a href="#"><img src="img/inta2.png" alt="" width="40%"> </a>
+                <a href="#"><img src="img/face.png" alt="" width="80%"> </a>
+                <br>
+                <a href="#"><img src="img/twit.png" alt="" width="60%" style="padding-left: 20%;"> </a>
+            </div>
+
+        </div>
+
+        <div class="foote2">
+            <h3>Quick link</h3>
+            <div style="text-decoration: none; ">
+                <a href="about.html">About</a><br>
+                <a href="login.html">login</a><br>
+                <a href="appointment.html">Appointment</a><br>
+                <a href="#">Contact</a><br>
+            </div>
+
+        </div>
+
+        <div class="foote3">
+            <h3>Get in touch</h3>
+            <p>Subscribe Our Newsletter To Get Our Latest Updated News!</p>
+
+
+        </div>
+    </div>
+
+    <div class="last">
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

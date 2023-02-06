@@ -1,0 +1,243 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box; 
+    // border: 5px solid black;
+  
+    body{
+      font-size : 20px;
+      font-family : sans-serif;
+    }
+}
+
+.navbar-brand
+{
+    font-size: 6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar
+{
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    // border: 3px solid red;
+    
+    
+}
+.navbar-nav
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 6vh;
+  
+}
+
+.nav-link
+{
+    font-size: 2.5vh;
+}
+
+
+
+
+
+
+.foote{
+    // margin-top: 4%;
+    // border: 3px solid brown;
+    width: 100%;
+    // height: 550px;
+    // margin-top: 1%;
+    // margin-bottom: 3%;
+    background-color: #f7f7f7;
+    display: flex;
+    
+    // background-image: url(img/life.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-position-y: 50%;
+    background-position: 50%;
+
+    
+    
+  
+}
+.foote1{
+    padding: 2%;
+    // border: 3px solid black;
+    margin: 4%;
+    width: 32%;
+    // display: flex;
+}
+.some
+{
+    display: flex; 
+    width: 50%; 
+    row-gap: 2%; 
+    // border: 3px solid greenyellow;     
+    padding: 3%;
+}
+.foote2{
+    // border: 3px solid black;
+    width: 15%;
+    padding: 2%;
+    margin: 4%;
+
+}
+.foote3
+{
+    // border: 3px solid black;
+    width: 25%;
+    padding: 2%;
+    margin: 4%;
+
+}
+
+@media (max-width:769px)
+{
+    .foote
+    {
+        justify-content: center;
+        align-items: center;
+        .foote1
+        {
+            width: 60%;
+
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .some
+            {
+                width: 100%;
+                // border: 3px solid gold;
+            }
+        }
+        .foote2
+        {
+            width: 35%;
+        }
+        .foote3
+        {
+            width: 41%;
+        }
+    }
+
+}
+
+@media (max-width:400px) {
+    .foote
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .foote1
+        {
+            text-align: center;
+            width: 80%;
+        }
+        .foote2
+        {
+            // align-items: center;
+            // justify-content: center;
+            // flex-direction: column;
+            text-align: center;
+
+            width: 80%;
+        }
+        .foote3
+        {
+            text-align: center;
+            
+            width: 80%;
+        }
+    }
+    
+}
+.last
+{
+    // border: 2px solid green;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 3%;
+}
+
+@media (max-width:768px)
+{
+    .last
+    {
+        padding-bottom: 10%;
+    }
+}
+
+
+.imagaform
+{
+    background-image: url(img/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // border: 4px solid green;
+    // margin-top: 8%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.foomr
+{
+    // background-color: gray;
+    background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+
+    margin-top: 13%;
+    // border: 4px solid pink;2
+    width: 45%;
+    margin-bottom: 13%;
+  opacity: 0.9;
+
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+    
+}
+
+.form-footer span {
+    float:left;
+    margin-top: 10px;
+    color:#999;  
+    font-style: italic;
+    font-weight: thin;
+  }
+  
+  .btn {
+     display:inline-block;
+     padding:10px 20px;
+     background-color: #2d9279;
+     font-size:17px;
+     border:none;
+     border-radius:5px;
+     color:#bcf5e7;
+     cursor:pointer;
+  }
+  
+  .btn:hover {
+    background-color: #1d5e4d;
+    color:white;
+  }
+
+
+  .form-header {
+    background-color: #EFF0F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #666;
+    padding: 20px 0;
+    // border-bottom: 1px solid #cccccc;
+  }
+  
